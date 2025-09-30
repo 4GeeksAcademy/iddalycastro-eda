@@ -1,0 +1,3 @@
+with open("Procfile", "w", encoding="utf-8") as f:
+    f.write("web: gunicorn app:app\n")
+"✅ Procfile creado"
